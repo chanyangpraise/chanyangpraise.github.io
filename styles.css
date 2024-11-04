@@ -1,3 +1,40 @@
 * {
-  background-color: black;
+  background-color: gray;
 }
+
+.header {
+  text-align: center;
+}
+
+/* Aligns the nav items from right to left */
+.nav ul {
+  list-style: none;        /* Removes bullet points */
+  padding: 0;              /* Removes default padding */
+  margin: 0;               /* Removes default margin */
+  display: flex;           /* Displays items in a row */
+  justify-content:center; /* Aligns items to the right */
+}
+
+.nav li {
+  margin-left: 20px;       /* Adds space between the nav items */
+}
+
+.nav a {
+  text-decoration: none;   /* Removes underline from links */
+  color: #333;             /* Sets link color */
+  font-weight: bold;       /* Makes text bold */
+}
+
+.circle {
+  margin: auto;
+  margin-top: 2%;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.footer {
+  text-align: center;
+}
+
