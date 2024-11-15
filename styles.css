@@ -8,21 +8,21 @@
 
 /* Aligns the nav items from right to left */
 .nav ul {
-  list-style: none;        /* Removes bullet points */
-  padding: 0;              /* Removes default padding */
-  margin: 0;               /* Removes default margin */
-  display: flex;           /* Displays items in a row */
-  justify-content:center; /* Aligns items to the right */
+  list-style: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+  display: flex; /* Displays items in a row */
+  justify-content: center; /* Aligns items to the right */
 }
 
 .nav li {
-  margin-left: 20px;       /* Adds space between the nav items */
+  margin-left: 20px; /* Adds space between the nav items */
 }
 
 .nav a {
-  text-decoration: none;   /* Removes underline from links */
-  color: #333;             /* Sets link color */
-  font-weight: bold;       /* Makes text bold */
+  text-decoration: none; /* Removes underline from links */
+  color: #333; /* Sets link color */
+  font-weight: bold; /* Makes text bold */
 }
 
 .circle {
@@ -35,6 +35,6 @@
 }
 
 .footer {
+  padding-top: 10px;
   text-align: center;
 }
-
